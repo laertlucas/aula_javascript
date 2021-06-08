@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Funções Datas  </title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <!-- Funções Datas (Math) -->
+        <script>
+
+          /*var data = new Date();
+
+          //data.getDate();
+          //document.write(data.getDate() + '/' + data.getMonth() + '/' + data.getFullYear());
+            
+          document.write(data.toString());
+          data.setDate(data.getDate() + 1);
+          document.write('<hr/>');
+          document.write(data.toString());
+
+          document.write('<hr/>');
+
+          document.write(data.toString());
+          data.setMonth(data.getDate() + 2);
+          document.write('<hr/>');
+          document.write(data.toString());
+
+          document.write('<hr/>');
+
+          document.write(data.toString());
+          data.setFullYear(data.getFullYear() + 1);
+          document.write('<hr/>');
+          document.write(data.toString());*/
+
+          var data1 = new Date(2021, 5, 7);
+
+          var data2 = new Date(2021, 10, 17);
+
+          document.write(data1.toString());
+          document.write('<hr/>');
+          document.write(data2.toString());
+
+          document.write('<hr/>');
+        
+          document.write(data1.getTime());
+          document.write('<hr/>');
+          document.write(data2.getTime());
+
+          document.write(Math.abs(data1.getTime() - data2.getTime()));
+
+          document.write('1 dia tem: ' + (1*24*60*60*1000) + 'Milissegundos');
+        </script>
+    </body>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operações Condicionais</title>
+        <meta charset="utf-8">
+        
+    </head>
+
+    <body>
+        <h1> Operações Condicionais If/Else </h1>
+        
+        <script>
+            var nota1 = prompt('Informe nota 1: ');
+            var nota2 = prompt('Informe nota 2: ');
+            var nota3 = prompt('Informe nota 3: ');
+            var nota4 = prompt('Informe nota 4: ');
+            var media; 
+
+            nota1 = parseInt(nota1);
+            nota2 = parseInt(nota2);
+            nota3 = parseInt(nota3);
+            nota4 = parseInt(nota4);
+            media = parseFloat(media);
+            
+            media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+            document.write('</hr>');
+
+            if(media >= 7){
+                document.write(media + '</br>');
+                document.write('Aluno aprovado!');
+            } else if (media < 7 && media >= 5){
+                document.write(media + '</br>');
+                document.write('Aluno de recuperação!');
+            } else {
+                document.write(media + '</br>');
+                document.write('Aluno reprovado!');
+            }
+            
+        </script>
+    </body>
+</html>
